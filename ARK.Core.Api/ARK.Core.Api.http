@@ -1,0 +1,13 @@
+@ARK.Core.Api_HostAddress = https://localhost:7095
+
+GET {{ARK.Core.Api_HostAddress}}/api/home
+
+###
+
+GET {{ARK.Core.Api_HostAddress}}/api/home/health
+
+###
+
+GET {{ARK.Core.Api_HostAddress}}/api/home/status
+
+###
