@@ -30,7 +30,7 @@ namespace ARK.Core.Infrastructure.Builds
                         .AddBuildStep()
                         .AddTestStep(
                             command: "dotnet test --no-build --verbosity normal --filter " +
-                                     "FullyQualifiedName!~Integrations"))
+                                     "'FullyQualifiedName!~Integrations'"))
                 .SaveToFile(buildScriptPath);
 
         }
