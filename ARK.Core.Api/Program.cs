@@ -1,4 +1,6 @@
 
+using ARK.Core.Api.Brokers.Loggings;
+using ARK.Core.Api.Brokers.Storages;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -16,6 +18,11 @@ namespace ARK.Core.Api
             builder.Services.AddControllers();
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
+            builder.Services.AddLogging();
+            builder.Services.AddDbContext<StorageBroker>();
+
+            builder.Services.AddTransient<ILoggingBroker, LoggingBroker>();
+            builder.Services.AddTransient<IStorageBroker, StorageBroker>();
 
             var app = builder.Build();
 
