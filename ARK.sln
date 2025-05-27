@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36121.58 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARK.Core.Api", "ARK.Core.Api\ARK.Core.Api.csproj", "{F4009E63-B9E8-4322-977D-FD051F2D1E9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARK.Core.Api.Tests.Units", "ARK.Core.Api.Tests.Units\ARK.Core.Api.Tests.Units.csproj", "{E2C7F3F4-F731-4608-AFA6-DFC365959F15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F4009E63-B9E8-4322-977D-FD051F2D1E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4009E63-B9E8-4322-977D-FD051F2D1E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4009E63-B9E8-4322-977D-FD051F2D1E9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2C7F3F4-F731-4608-AFA6-DFC365959F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2C7F3F4-F731-4608-AFA6-DFC365959F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2C7F3F4-F731-4608-AFA6-DFC365959F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2C7F3F4-F731-4608-AFA6-DFC365959F15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
