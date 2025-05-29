@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ARK.Core.Api.Services.Arks
+namespace ARK.Core.Api.Services.Foundations.Arks
 {
     public interface IArkService
     {

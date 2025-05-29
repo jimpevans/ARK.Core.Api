@@ -4,8 +4,8 @@ using System.Threading.Tasks;
 
 namespace ARK.Core.Api.Brokers.Storages
 {
-    public partial interface IStorageBRoker
+    public partial interface IStorageBroker
     {
-        ValueTask<IQueryable<Ark>> SelectAllArcsAsync();
+        ValueTask<IQueryable<Ark>> SelectAllArksAsync();
     }
 }
